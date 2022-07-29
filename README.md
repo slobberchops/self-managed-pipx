@@ -12,6 +12,15 @@ curl https://raw.githubusercontent.com/slobberchops/self-managed-pipx/main/insta
 
 To uninstall self managed `pipx` use:
 
+### Installing using a specific python binary
+
+To use a specific python binary version (for example `python3.9`) set the
+`PYTHON_BIN` environment variable:
+
+```shell
+PYTHON_BIN=python3.9 curl https://raw.githubusercontent.com/slobberchops/self-managed-pipx/main/install-self-managed-pipx.sh | bash
+```
+
 ```shell
 pipx uninstall
 ```
